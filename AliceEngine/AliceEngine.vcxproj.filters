@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D3D12">
+      <UniqueIdentifier>{6c302d3b-6c84-41b4-85ed-eab650a297d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D12\Common">
+      <UniqueIdentifier>{9b5e730f-3d00-4e4a-b73b-e33015c6a6aa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3D12\Common\Camera.cpp">
+      <Filter>D3D12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\Common\d3dApp.cpp">
+      <Filter>D3D12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\Common\d3dUtil.cpp">
+      <Filter>D3D12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\Common\DDSTextureLoader.cpp">
+      <Filter>D3D12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\Common\GameTimer.cpp">
+      <Filter>D3D12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\Common\GeometryGenerator.cpp">
+      <Filter>D3D12\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D12\Common\MathHelper.cpp">
+      <Filter>D3D12\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D12\Common\Camera.h">
+      <Filter>D3D12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12\Common\d3dApp.h">
+      <Filter>D3D12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12\Common\d3dUtil.h">
+      <Filter>D3D12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12\Common\d3dx12.h">
+      <Filter>D3D12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12\Common\DDSTextureLoader.h">
+      <Filter>D3D12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12\Common\GameTimer.h">
+      <Filter>D3D12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12\Common\GeometryGenerator.h">
+      <Filter>D3D12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12\Common\MathHelper.h">
+      <Filter>D3D12\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D12\Common\UploadBuffer.h">
+      <Filter>D3D12\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
