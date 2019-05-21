@@ -78,6 +78,9 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aiRandom.cpp" />
+    <ClCompile Include="aiTimer.cpp" />
+    <ClCompile Include="AliceMath.cpp" />
     <ClCompile Include="BoxApp.cpp" />
     <ClCompile Include="D3D12\Common\Camera.cpp" />
     <ClCompile Include="D3D12\Common\d3dApp.cpp" />
@@ -88,6 +91,14 @@
     <ClCompile Include="D3D12\Common\MathHelper.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="aiEnums.h" />
+    <ClInclude Include="aiGraphicsDescriptors.h" />
+    <ClInclude Include="aiGraphicsDevice.h" />
+    <ClInclude Include="aiGraphicsResource.h" />
+    <ClInclude Include="aiHelper.h" />
+    <ClInclude Include="aiRandom.h" />
+    <ClInclude Include="aiTimer.h" />
+    <ClInclude Include="AliceMath.h" />
     <ClInclude Include="D3D12\Common\Camera.h" />
     <ClInclude Include="D3D12\Common\d3dApp.h" />
     <ClInclude Include="D3D12\Common\d3dUtil.h" />

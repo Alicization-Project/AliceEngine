@@ -30,6 +30,10 @@
     <ClCompile Include="D3D12\Common\MathHelper.cpp">
       <Filter>D3D12\Common</Filter>
     </ClCompile>
+    <ClCompile Include="BoxApp.cpp" />
+    <ClCompile Include="AliceMath.cpp" />
+    <ClCompile Include="aiRandom.cpp" />
+    <ClCompile Include="aiTimer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3D12\Common\Camera.h">
@@ -59,5 +63,13 @@
     <ClInclude Include="D3D12\Common\UploadBuffer.h">
       <Filter>D3D12\Common</Filter>
     </ClInclude>
+    <ClInclude Include="AliceMath.h" />
+    <ClInclude Include="aiRandom.h" />
+    <ClInclude Include="aiTimer.h" />
+    <ClInclude Include="aiHelper.h" />
+    <ClInclude Include="aiGraphicsDevice.h" />
+    <ClInclude Include="aiEnums.h" />
+    <ClInclude Include="aiGraphicsDescriptors.h" />
+    <ClInclude Include="aiGraphicsResource.h" />
   </ItemGroup>
 </Project>
