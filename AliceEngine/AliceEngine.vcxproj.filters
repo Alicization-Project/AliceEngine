@@ -34,6 +34,8 @@
     <ClCompile Include="AliceMath.cpp" />
     <ClCompile Include="aiRandom.cpp" />
     <ClCompile Include="aiTimer.cpp" />
+    <ClCompile Include="aiGraphicsDevice.cpp" />
+    <ClCompile Include="aiGraphicsResource.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3D12\Common\Camera.h">

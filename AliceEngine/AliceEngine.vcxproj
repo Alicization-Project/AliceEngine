@@ -78,6 +78,8 @@
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="aiGraphicsDevice.cpp" />
+    <ClCompile Include="aiGraphicsResource.cpp" />
     <ClCompile Include="aiRandom.cpp" />
     <ClCompile Include="aiTimer.cpp" />
     <ClCompile Include="AliceMath.cpp" />
