@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PerformanceTest", "Performa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Editor", "Editor\Editor.vcxproj", "{4C97716E-D071-4DF5-A7E3-D628696FD247}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cuda-smallpt", "cuda-smallpt\cuda-smallpt.vcxproj", "{3EEDE933-248B-4435-96F2-A885A93D0DD5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CudaTest", "CudaTest\CudaTest.vcxproj", "{535E645D-7141-48C1-8E5A-78633A5EEE8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -37,6 +41,18 @@ Global
 		{4C97716E-D071-4DF5-A7E3-D628696FD247}.Release|x64.ActiveCfg = Release|x64
 		{4C97716E-D071-4DF5-A7E3-D628696FD247}.Release|x64.Build.0 = Release|x64
 		{4C97716E-D071-4DF5-A7E3-D628696FD247}.Release|x86.ActiveCfg = Release|x64
+		{3EEDE933-248B-4435-96F2-A885A93D0DD5}.Debug|x64.ActiveCfg = Debug|x64
+		{3EEDE933-248B-4435-96F2-A885A93D0DD5}.Debug|x64.Build.0 = Debug|x64
+		{3EEDE933-248B-4435-96F2-A885A93D0DD5}.Debug|x86.ActiveCfg = Debug|x64
+		{3EEDE933-248B-4435-96F2-A885A93D0DD5}.Release|x64.ActiveCfg = Release|x64
+		{3EEDE933-248B-4435-96F2-A885A93D0DD5}.Release|x64.Build.0 = Release|x64
+		{3EEDE933-248B-4435-96F2-A885A93D0DD5}.Release|x86.ActiveCfg = Release|x64
+		{535E645D-7141-48C1-8E5A-78633A5EEE8A}.Debug|x64.ActiveCfg = Debug|x64
+		{535E645D-7141-48C1-8E5A-78633A5EEE8A}.Debug|x64.Build.0 = Debug|x64
+		{535E645D-7141-48C1-8E5A-78633A5EEE8A}.Debug|x86.ActiveCfg = Debug|x64
+		{535E645D-7141-48C1-8E5A-78633A5EEE8A}.Release|x64.ActiveCfg = Release|x64
+		{535E645D-7141-48C1-8E5A-78633A5EEE8A}.Release|x64.Build.0 = Release|x64
+		{535E645D-7141-48C1-8E5A-78633A5EEE8A}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
